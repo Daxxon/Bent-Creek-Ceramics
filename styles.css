@@ -1,0 +1,201 @@
+body {
+  background-color: #F2F1E8;
+  margin: 0;
+}
+
+header {
+  color: #2B2F26;
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: #2B2F26;
+  color: #FFF;
+}
+
+footer h4 {
+  padding: 25px;
+  margin: 0 10px;
+}
+
+.mainNavigation {
+  color: #2B2F26;
+  margin: 0 auto;
+  padding-right: 7%;
+}
+
+.mainNavigation a {
+  margin: 0 30px;
+}
+
+#myLogo {
+  background-image: url("./images/bent-creek-logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+#endlessPossibilities {
+  width: 510px;
+  height: 250px;
+  background-image: url("./images/product-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+  margin: 7px;
+}
+
+#indexTitleCards h1 {
+  text-align: center;
+}
+
+#indexTitleCards h3 {
+  text-align: center;
+}
+
+#pictureWrapper {
+  width: 875px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+}
+
+#sets {
+  width: 160px;
+  height: 250px;
+  background-image: url("./images/product-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  margin: 7.5px;
+}
+
+#textures {
+  width: 160px;
+  height: 250px;
+  background-image: url("./images/product-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  margin: 7.5px;
+}
+
+#teaTime {
+  width: 160px;
+  height: 165px;
+  background-image: url("./images/product-4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  margin: 7.5px;
+
+}
+
+#jarsAndContainers {
+  width: 160px;
+  height: 165px;
+  background-image: url("./images/product-5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  margin: 7.5px;
+}
+
+#wasabiAndSake {
+  width: 335px;
+  height: 165px;
+  background-image: url("./images/product-6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  margin: 7.5px;
+}
+
+#sippinOnSunshine {
+  width: 160px;
+  height: 165px;
+  background-image: url("./images/product-7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  margin: 7.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DO NOT USE - REFERENCE ONLY */
+.myText {
+  color: #121511;
+}
+
+.myInlineLink {
+  color: #968772;
+}
+
+.myInlineLinkHover {
+  color: #867343;
+}
+
+.myNavigationBackground {
+  color: #FFF;
+}
+
+.myNavigationText {
+  color: #2B2F26;
+}
+
+.myNavigationTextHover {
+  color: #CD5D67;
+}
+
+.myNavigationTextActive {
+  color: #968772;
+}
+
+.myButtonBackground {
+  color: #968772;
+}
+
+.myButtonBackgroundHover {
+  color: #867343;
+}
+
+.myButtonText {
+  color: #F2F1E8;
+}
+
+.myButtonTextHover {
+  color: #FFF;
+}
+
+.myInputBorderBottom {
+  color: #968772;
+}
+
+.myInputBorderBottomFocus {
+  color: #967343;
+}
+/* DO NOT USE - REFERENCE ONLY */
