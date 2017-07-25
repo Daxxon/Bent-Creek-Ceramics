@@ -18,9 +18,10 @@ footer {
   color: #FFF;
 }
 
-footer h4 {
+footer p {
   padding: 25px;
   margin: 0 10px;
+  font-family: "Merriweather", arial, helvetica;
 }
 
 .mainNavigation {
@@ -31,6 +32,19 @@ footer h4 {
 
 .mainNavigation a {
   margin: 0 30px;
+}
+
+.titleCard {
+  display: flex;
+  align-items: flex-end;
+}
+
+.titleCard p {
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  padding: 10px;
+  font-family: "Merriweather", arial, helvetica;
+  font-size: 85%;
 }
 
 #myLogo {
@@ -52,12 +66,20 @@ footer h4 {
   margin: 7px;
 }
 
+#indexTitleCards {
+  margin: 30px 0;
+}
+
 #indexTitleCards h1 {
   text-align: center;
+  font-family: "Merriweather", arial, helvetica;
+  margin: 0px 0px 10px 0px;
 }
 
 #indexTitleCards h3 {
   text-align: center;
+  font-family: "Merriweather", arial, helvetica;
+  margin: 10px 0px 0px 0px;
 }
 
 #pictureWrapper {
@@ -66,7 +88,7 @@ footer h4 {
   margin-right: 10px;
   display: flex;
   flex-flow: row wrap;
-  margin: 0 auto;
+  margin: 7.5px auto;
 }
 
 #sets {
