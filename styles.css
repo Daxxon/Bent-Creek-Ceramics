@@ -19,9 +19,20 @@ footer {
 }
 
 footer p {
-  padding: 25px;
+  padding: 30px;
   margin: 0 10px;
   font-family: "Merriweather", arial, helvetica;
+  font-weight: 100;
+  font-size: .9em;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+.aboutH1 {
+  font-family: "Merriweather", arial, helvetica;
+  font-weight: 300;
 }
 
 .mainNavigation {
@@ -47,12 +58,76 @@ footer p {
   font-size: 85%;
 }
 
+#artistCommunity {
+  font-weight: 400;
+  font-size: 4em;
+  font-family: "Merriweather", arial, helvetica;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#bigPlantThing {
+  width: auto;
+  height: 320px;
+  background-image: url("./images/background-3.jpg");
+  background-position: 0% 25%;
+  background-size: cover;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#bigPlantThing p {
+  color: #F2F1E8;
+  text-align: center;
+  font-size: 4.5em;
+  font-family: "Merriweather", arial, helvetica;
+  padding-top: 35px;
+}
+
+#birdHouse {
+  width: 160px;
+  height: 120px;
+  background-image: url("./images/birdhouse.jpg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: contain;
+  padding: 0;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+#topHalf {
+  width: 900px;
+  margin: 0 auto;
+}
+
+#topHalf p {
+  font-family: "Merriweather", arial, aelvetica;
+  font-size: 1.3em;
+  line-height: 175%;
+}
+
+#bottomHalf {
+  width: 900px;
+  margin: 0 auto;
+}
+
+#bottomHalf p {
+  font-family: "Merriweather", arial, aelvetica;
+  font-size: 1.3em;
+  line-height: 175%;
+}
+
 #myLogo {
   background-image: url("./images/bent-creek-logo.png");
   background-repeat: no-repeat;
   background-size: contain;
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   margin: 10px;
 }
 
@@ -63,7 +138,7 @@ footer p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
-  margin: 7px;
+  margin: 7.5px;
 }
 
 #indexTitleCards {
@@ -74,12 +149,16 @@ footer p {
   text-align: center;
   font-family: "Merriweather", arial, helvetica;
   margin: 0px 0px 10px 0px;
+  font-weight: 300;
+  font-size: 4em;
 }
 
 #indexTitleCards h3 {
   text-align: center;
   font-family: "Merriweather", arial, helvetica;
   margin: 10px 0px 0px 0px;
+  font-weight: 200;
+  font-size: 2em;
 }
 
 #pictureWrapper {
@@ -89,6 +168,20 @@ footer p {
   display: flex;
   flex-flow: row wrap;
   margin: 7.5px auto;
+}
+
+#quote {
+  font-weight: 200;
+  font-style: italic;
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-left-color: #968772;
+  padding: 0 20px;
+  margin: 30px 0;
+}
+
+#quote p {
+  font-family: "Merriweather", arial, helvetica;
 }
 
 #sets {
@@ -150,6 +243,29 @@ footer p {
   background-repeat: no-repeat;
   background-position: top left;
   margin: 7.5px;
+}
+
+#thatWeirdEmptyBox {
+  width: 160px;
+  height: 100px;
+}
+
+#weirdClayPotPictureContainer {
+  width: 160px;
+  height: 200px;
+  background-image: url("./images/background-1.jpg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: contain;
+  padding: 0;
+  float: right;
+  margin-left: 40px;
+}
+
+#weirdClayPotPictureContainer p {
+  font-size: .74em;
+  font-family: "Merriweather", arial, helvetica;
+  line-height: 150%;
 }
 
 
