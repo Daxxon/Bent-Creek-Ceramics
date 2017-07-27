@@ -26,6 +26,10 @@ footer p {
   font-size: .9em;
 }
 
+form {
+  background-color: #fff;
+}
+
 section {
   margin-bottom: 50px;
 }
@@ -100,17 +104,6 @@ section {
   margin: 0 20px 20px 0;
 }
 
-#topHalf {
-  width: 900px;
-  margin: 0 auto;
-}
-
-#topHalf p {
-  font-family: "Merriweather", arial, aelvetica;
-  font-size: 1.3em;
-  line-height: 175%;
-}
-
 #bottomHalf {
   width: 900px;
   margin: 0 auto;
@@ -122,15 +115,6 @@ section {
   line-height: 175%;
 }
 
-#myLogo {
-  background-image: url("./images/bent-creek-logo.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 45px;
-  height: 45px;
-  margin: 10px;
-}
-
 #endlessPossibilities {
   width: 510px;
   height: 250px;
@@ -139,6 +123,20 @@ section {
   background-repeat: no-repeat;
   background-position: left top;
   margin: 7.5px;
+}
+
+#formH1 {
+  text-align: center;
+  font-family: "Merriweather", arial, helvetica;
+  color: #2B2F26;
+  font-weight: 200;
+}
+
+#formH3 {
+  text-align: center;
+  font-family: "Merriweather", arial, helvetica;
+  color: #2B2F26;
+  font-weight: 200;
 }
 
 #indexTitleCards {
@@ -159,6 +157,38 @@ section {
   margin: 10px 0px 0px 0px;
   font-weight: 200;
   font-size: 2em;
+}
+
+#jarsAndContainers {
+  width: 160px;
+  height: 165px;
+  background-image: url("./images/product-5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  margin: 7.5px;
+}
+
+#myLogo {
+  background-image: url("./images/bent-creek-logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 45px;
+  height: 45px;
+  margin: 10px;
+}
+
+#newsLetterPage {
+  background-image: url("./images/background-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#newsLetterWindow {
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 100px 0 150px 0;
 }
 
 #pictureWrapper {
@@ -215,24 +245,15 @@ section {
 
 }
 
-#jarsAndContainers {
-  width: 160px;
-  height: 165px;
-  background-image: url("./images/product-5.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top left;
-  margin: 7.5px;
+#topHalf {
+  width: 900px;
+  margin: 0 auto;
 }
 
-#wasabiAndSake {
-  width: 335px;
-  height: 165px;
-  background-image: url("./images/product-6.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top left;
-  margin: 7.5px;
+#topHalf p {
+  font-family: "Merriweather", arial, aelvetica;
+  font-size: 1.3em;
+  line-height: 175%;
 }
 
 #sippinOnSunshine {
@@ -248,6 +269,16 @@ section {
 #thatWeirdEmptyBox {
   width: 160px;
   height: 100px;
+}
+
+#wasabiAndSake {
+  width: 335px;
+  height: 165px;
+  background-image: url("./images/product-6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  margin: 7.5px;
 }
 
 #weirdClayPotPictureContainer {
@@ -266,6 +297,14 @@ section {
   font-size: .74em;
   font-family: "Merriweather", arial, helvetica;
   line-height: 150%;
+}
+
+#yourEmail {
+
+}
+
+#yourName {
+
 }
 
 
